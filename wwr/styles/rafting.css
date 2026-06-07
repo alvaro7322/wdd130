@@ -5,6 +5,7 @@
     --accent2-color: rgb(196, 196, 202);
     --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --border: 2px solid black;
 }
 
 * {
@@ -349,3 +350,78 @@ button {
 }
 
 /* trips arrives */
+.trips-page {
+    background-color: rgb(231, 231, 217);
+    color: black;
+}
+
+.trips-description {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+    justify-self: center;
+}
+
+.trips-description img {
+    width: 23rem;
+}
+
+.alone {
+    grid-column: 1 / -1;
+    justify-self: center;
+    margin: 20px 0;
+    border: 5px white solid;
+}
+
+.trips-description p {
+    width: 22rem;
+    margin-left: -3px;
+}
+
+.image1 {
+    margin-right: 15px;
+    border: 5px white solid;
+}
+
+.image2 {
+    margin-left: 15px;
+    border: 5px white solid;
+}
+
+table {
+    border-collapse: collapse;
+    border: var(--border);
+    letter-spacing: normal;
+    font-size: 0.8rem;
+    justify-self: center;
+    background-color: rgb(231, 231, 217);
+}
+
+th,
+td {
+    border: var(--border);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead tr {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}
+
+.table {
+    margin-bottom: 10px;
+}
+
+.trips-page a {
+    font-size: 1rem;
+    display: grid;
+    justify-self: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgb(66, 62, 62);
+    opacity: 0.8;
+    margin-top: 10px;
+}

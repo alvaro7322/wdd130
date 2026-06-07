@@ -16,8 +16,7 @@ td {
     text-align: center;
 }
 
-thead tr,
-tfoot tr {
+thead tr {
     background-color: black;
     color: white;
     font-weight: 700;
